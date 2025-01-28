@@ -22,12 +22,9 @@ Esse arquivo detalha a estrutura do repositório, pré-requisitos e instruções
 
 📁 requirements.txt  
 Esse arquivo contém as bibliotecas com métodos e funções utilizados nos scripts, são elas, e suas funções:
-- pytesseract : Reconhecimento óptico de caracteres (OCR)
 - pillow : Manipulação de imagens
 - pymupdf : Leitura e manipulação de arquivos PDF
-- surya-ocr : Reconhecimento avançado de OCR para documentos
-- pandas : Manipulação de dados estruturados
-- matplotlib : Geração de gráficos e visualizações  
+- pandas : Manipulação de dados estruturados  
 
  
 
@@ -85,7 +82,7 @@ Execute o script principal
 
 > python complete_processing.py
 
-Com isso você obterá os dados extraídos de cada PDF (extract_information.csv), as pastas com imagens recortadas de cada exame (ECG_Images), recortes de amplitude e velocidade do exame (Pastas Amplitude e Speed respectivamente), arquivos com problemas para revisão manual (pastas Problems e Errors)
+Com isso você obterá os dados extraídos de cada PDF (extract_information.csv), as pastas contendo as imagens recortadas de cada exame (ECG_Images), os recortes de amplitude e velocidade do exame (Amplitude e Speed respectivamente), e os arquivos com problemas para revisão manual (Problems e Errors)
 
 
 
